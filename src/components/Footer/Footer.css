@@ -1,0 +1,16 @@
+*{margin: 0;
+    padding: 0;
+}
+
+.footer{
+    background-color: black;
+    color: #ff0443;
+    display: flex;justify-content: space-between;
+    
+    font-size: 0.6vh;
+    margin-top: 4vh;
+    padding: 0px 5px;
+}
+.right{
+font-family: cursive;
+}

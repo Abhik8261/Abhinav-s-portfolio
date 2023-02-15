@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+       
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+   
+    
+}
+.set{
+margin-top: 15vh;
+
+}
+@media(max-width:800px){
+    .set{
+        margin-top: auto;
+   }
+}
+
+
+.links{
+    
+    margin-top: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+.links > h2{
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #ff0443;
+            
+}
+
+.links > div{
+    display: flex;
+    gap: 0.5rem;
+    margin-left: 6vh;
+    justify-content: flex-start;
+}
+ .links > div > a{
+    text-decoration: none;
+    color: lightgray;
+} 
+.profile2{
+font-size: 1.2rem;
+padding: 1rem 0 ;
+color: #ff0443;
+display: flex;
+flex-direction: column;
+align-items: baseline;
+}
+
+.icons{
+    display: flex;
+    margin-left: 6vh;
+    
+}
+ .icons > span{
+    background-color: black;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    border-radius: 50px;
+}
+.icons > span > a{
+   display: flex;
+   justify-content: center;
+   color: white;
+                    
+} 
+form{
+    border-radius: 5px;
+        background-color: #191923;
+        padding: 0.8rem;
+        margin-top: 2vh;
+}
+
+.name, .email, .message {
+    /* display: flex; */
+    border: 1px solid gray;
+    margin-bottom: 0.5rem;
+   
+    }
+
+    input, textarea{
+        width: 100%;
+        border: none;
+        outline: none;
+        color: white;
+        background-color: transparent;
+        border: none;
+        padding: 1rem 0.5rem;
+    }
+    .messageIcon{
+       margin-top: -42vh;
+       
+    }
+    button{
+        width: 5rem;
+        height: 1.8rem;
+        cursor: pointer;
+        background-color: #ff0443;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        /* filter: drop-shadow(0px 4px 5px #be010151); */
+    }
+   button :hover{
+    filter: drop-shadow(0px 6px 9px #01be9551);
+    }
+    form > div{
+        background-color: #3e3e3e;
+        width: 33rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .scroll{
+        
+        color: #efeced;
+        font-size: 3rem;
+        display: flex;
+        margin-top: auto;
+        margin-right: 2vh;
+
+    }
+    @media(max-width:900px){
+        .scroll{
+            font-size: 2rem;
+         
+           
+       }
+    }
+    #p{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+        font-family: 'slick';
+    }
+    @media(max-width:800px){
+        #p{
+            font-size: 3rem;
+         
+           
+       }
+    }
+
+    #contact {
+        background-color: black;
+       
+
+    }
+
+    @media (max-width:530px) {
+        form > div{
+            width: 95%;
+            display: flex;
+            
+            justify-content: center;
+        }
+    }
+

@@ -1,0 +1,127 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.content{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+h1{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+    letter-spacing: 5px;
+	color: #ff004f;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.wrapper div{
+    width: 70px;
+    height: 70px;
+    border: 5px solid #ff004f;
+    position: absolute;
+    overflow-x: hidden; 
+}
+.wrapper div:nth-child(1){
+    top:10%;
+    overflow-x: hidden;
+
+    left:30%;
+    animation:square 5s linear infinite;
+}
+.wrapper div:nth-child(2){
+    top:20%;
+    left:50%;
+    overflow-x: hidden;
+
+    animation:square 8s linear infinite;
+}
+.wrapper div:nth-child(3){
+    top:60%;
+    overflow-x: hidden;
+
+    left:10%;
+    animation:square 9s linear infinite;
+}
+.wrapper div:nth-child(4){
+    top:50%;
+    overflow-x: hidden;
+
+    left:40%;
+    animation:square 11s linear infinite;
+}
+.wrapper div:nth-child(5){
+    top:40%;
+    overflow-x: hidden;
+
+    left:60%;
+    animation:square 7s linear infinite;
+}
+.wrapper div:nth-child(6){
+    top:80%;
+    overflow-x: hidden;
+
+    left:30%;
+    animation:square 13s linear infinite;
+}
+.wrapper div:nth-child(7){
+    top:10%;
+    overflow-x: hidden;
+
+    left:10%;
+    animation:square 12s linear infinite;
+}
+.wrapper div:nth-child(8){
+    top:20%;
+    overflow-x: hidden;
+
+    left:85%;
+    animation:square 8s linear infinite;
+}
+.wrapper div:nth-child(9){
+    top:75%;
+    left:65%;
+    animation:square 9s linear infinite;
+    overflow-x: hidden;
+
+}
+.wrapper div:nth-child(10){
+    top:80%;
+    left:85%;
+    animation:square 7s linear infinite;
+    overflow-x: hidden;
+
+}
+@keyframes square{
+    0%{
+        transform: scale(0) translate(0) rotate(0);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2) translate(-90px) rotate(360deg);
+        opacity: 0;
+    }
+}
+@media(max-width:800px){
+     h1{
+        font-size: 1.9rem;
+    }
+}
+@media (max-width:555px)
+ {
+h1{
+	font-size: 1.5rem;
+}	
+}

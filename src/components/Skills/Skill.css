@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.skill{
+    
+        width: 80%;
+        max-width: 1280px;
+        margin: 0 auto;
+        background:black;
+         box-shadow: 0px 1px 20px 11px rgba(222, 28, 28, 0.5);
+        color: rgb(185, 31, 31);
+        padding: 2rem 0;
+        text-align: center;
+    
+    
+}
+.skillpr{
+    height: 10rem;
+    background-color: black;
+    /* box-shadow: 0px 1px 3px 5px rgba(219, 212, 212, 0.5); */
+    margin: 0 0.5rem;
+    padding: 0.1 0.5rem;
+    border-radius: 5px;
+    cursor: not-allowed;
+    position: relative;
+    overflow: hidden;
+    
+}
+@media (max-width:900px) {
+    .skillpr{
+        transform: scale(.9);
+    }
+}
+.skill-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}

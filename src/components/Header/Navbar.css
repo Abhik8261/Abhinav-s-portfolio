@@ -1,0 +1,7 @@
+.nav{
+    position: sticky ;
+    z-index: 99;
+    opacity: 0.95;
+    color: white ;
+   
+}

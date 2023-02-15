@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&family=Poppins:wght@100;300;400;500;600&family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:wght@900&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: black;
+}
+#aboutme{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+}
+/* h2{
+    display: flex;
+    justify-content: center;
+    color: #ffff;
+    font-family: 'Source Sans Pro', sans-serif;
+   
+    text-shadow: #ff004f;
+    
+} */
