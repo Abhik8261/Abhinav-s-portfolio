@@ -19,9 +19,15 @@ let data = [
         demo:"https://textutlis-wordcounter.netlify.app"
     },
    {
-    img:'https://res.cloudinary.com/dqigf7rd4/image/upload/v1676396712/websites%20images/Screenshot_2023-02-14_231401_o22bbv.png',
-    disc:"Spotify is a project which is the music website where user can listen the music and this website has the features like play/pause and change the music etc..",
-    demo:'https://abhik8261.github.io/spotify-clone/'
+    img:'https://res.cloudinary.com/dqigf7rd4/image/upload/v1688897714/todolist_w9tcmh.png',
+    disc:"I developed a feature-rich solution that offers seamless task management. The application includes essential features such as marking tasks as done, editing existing tasks, and managing active tasks. By leveraging the power of Redux, I ensured efficient state management and smooth data flow throughout the application.",
+    demo:'https://todolistmernapp.netlify.app',
+   },
+   {
+
+     img:'https://res.cloudinary.com/dqigf7rd4/image/upload/v1676795828/websites%20images/Screenshot_2023-02-19_140609_ponxw8.png',
+     disc:'X-Crypto is a ReactJS project that offers users the ability to view the top 100 cryptocurrency exchanges and over 25,000 coins, all in a seamless and user-friendly manner. The project is further enhanced by the API integration using Axios, which provides real-time data. Additionally, users can choose between a light and dark theme, allowing for a personalized experience.',
+     demo:'https://x-cryptoinfo.netlify.app/'
    }
     
 ];
