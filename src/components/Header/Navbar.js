@@ -34,7 +34,7 @@ const Navbar = () => {
                 <Tab label="Profiles" href="#profile" />
                 
 </Tabs>
-<Button sx={{marginLeft:'auto'}} href='https://drive.google.com/file/d/1PxQt4Eb3Vlko8zLhrh77LkS6_ssTKtix/view?usp=drive_link' variant='contained' target='_blank'>Resume</Button></>
+<Button sx={{marginLeft:'auto'}} href='https://drive.google.com/file/d/1z5sN_q3tEtTazhwOveJdaNGViV4ERhcC/view?usp=sharing' variant='contained' target='_blank'>Resume</Button></>
   )
 }
 

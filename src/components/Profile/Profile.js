@@ -58,7 +58,7 @@ const Profile = () => {
                     <h2>Contact me Directly:</h2>
                     <div >
                         <span><FiPhoneCall/></span>
-                        <a href="tel:+918178568527">+91 8178568527</a>
+                        <a href="tel:+918178568527">+353 894124471</a>
                     </div>
                     <div>
                         <span><HiOutlineMailOpen/></span>

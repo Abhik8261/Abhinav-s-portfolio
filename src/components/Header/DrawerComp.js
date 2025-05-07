@@ -45,7 +45,7 @@ const DrawerComp = () => {
           <ListItemButton
             onClick={() => setOpenDrawer(false)}
             component="a"
-            href="https://drive.google.com/file/d/1PxQt4Eb3Vlko8zLhrh77LkS6_ssTKtix/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1z5sN_q3tEtTazhwOveJdaNGViV4ERhcC/view?usp=sharing"
           >
             <ListItemIcon>
               <ListItemText>Resume</ListItemText>

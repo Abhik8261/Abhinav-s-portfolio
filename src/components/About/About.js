@@ -10,7 +10,7 @@ const About = () => {
         <div className="about"  >
        
           <p style={{marginTop:'2px'}}>
-          I am a current B.Tech student pursuing CSE(AI&ML) with a passion for full-stack web development. I have experience working with the MERN stack and a variety of programming languages. As a quick learner, I enjoy taking on new challenges and projects to expand my skillset. 
+          I am a B.Tech graduate in CSE (AI & ML) and currently pursuing an M.Eng. in Computer Vision and Artificial Intelligence at the University of Limerick. With a strong foundation in AI, I am passionate about full-stack web development using the MERN stack and various programming languages. A quick learner, I eagerly tackle new challenges.
            
           </p>
         </div>
